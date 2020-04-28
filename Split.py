@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression as lm
 from sklearn import svm, metrics
 from sklearn.externals import joblib
 
-dataset = pd.read_csv('E:\Study\Python\IDS\kddcup99.csv',low_memory=False)
+dataset = pd.read_csv('kddcup99.csv',low_memory=False)
 ##print ("Whole dataset count : \n",dataset.shape)
 ##print ("\n\nColumns in whole dataset : \n",dataset.columns)
 
