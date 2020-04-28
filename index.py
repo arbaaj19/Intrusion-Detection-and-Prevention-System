@@ -39,7 +39,7 @@ def hund_exe(val):
     btn_done.grid_remove()
     row_no = int(val)
     ##Import dataset
-    dataset = pd.read_csv('C:\Python\BE\Version 3 - 28-02-2020(WEENGS)\kddcup99.csv',low_memory=False)
+    dataset = pd.read_csv('kddcup99.csv',low_memory=False)
 
     ##Import Trained Regression Model
     model = joblib.load('model.pkl')
